@@ -1,0 +1,46 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 🌐 Ambiente Virtual
+venv/
+env/
+ENV/
+.venv/
+
+# 🔐 Variáveis de ambiente (SENHAS, API KEYS)
+.env
+.env.local
+*.key
+
+# 💻 VS Code
+.vscode/
+*.code-workspace
+
+# 🗂️ Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 📊 Jupyter Notebook
+.ipynb_checkpoints/
+
+# 📦 Distribuição / Build
+build/
+dist/
+*.egg-info/
+
+# 🧪 Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 📝 Logs
+*.log
+logs/
+
+# 🗄️ Banco de dados local
+*.sqlite3
+*.db
