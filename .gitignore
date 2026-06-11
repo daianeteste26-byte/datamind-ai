@@ -3,44 +3,57 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+.Python
 
-# 🌐 Ambiente Virtual
+# 📦 Ambientes virtuais
 venv/
+.venv/
 env/
 ENV/
-.venv/
 
 # 🔐 Variáveis de ambiente (SENHAS, API KEYS)
 .env
 .env.local
+.env.*
+!.env.example
+*.chave
 *.key
+*.pem
+
+# 🔐 Streamlit secrets (CRÍTICO!)
+.streamlit/secrets.toml
+secrets.toml
+
+# 🔐 Credenciais diversas
+credentials.json
+config.json
+*.credentials
+service-account*.json
 
 # 💻 VS Code
 .vscode/
 *.code-workspace
 
-# 🗂️ Sistema Operacional
+# 🍎 macOS
 .DS_Store
+
+# 🪟 Windows
 Thumbs.db
 desktop.ini
-
-# 📊 Jupyter Notebook
-.ipynb_checkpoints/
-
-# 📦 Distribuição / Build
-build/
-dist/
-*.egg-info/
-
-# 🧪 Testes
-.pytest_cache/
-.coverage
-htmlcov/
 
 # 📝 Logs
 *.log
 logs/
 
-# 🗄️ Banco de dados local
-*.sqlite3
-*.db
+# 🧪 Testes e cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 📦 Distribuição
+dist/
+build/
+*.egg-info/
+
+# 💾 Jupyter Notebook
+.ipynb_checkpoints
